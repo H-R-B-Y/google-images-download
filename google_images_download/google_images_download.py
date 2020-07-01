@@ -164,7 +164,7 @@ class googleimagesdownload:
             except Exception as e:
                 print("Could not open URL. Please check your internet connection and/or ssl settings \n"
                       "If you are using proxy, make sure your proxy settings is configured correctly")
-                sys.exit()
+                
         else:  # If the Current Version of Python is 2.x
             try:
                 headers = {}
@@ -180,7 +180,6 @@ class googleimagesdownload:
             except:
                 print("Could not open URL. Please check your internet connection and/or ssl settings \n"
                       "If you are using proxy, make sure your proxy settings is configured correctly")
-                sys.exit()
                 return "Page Not found"
 
 
